@@ -390,7 +390,7 @@ class crack:
 				except Exception as e:
 					print(("   %s"%e))
 					continue
-				print((k+"["+p+"•"+k+"]"+p+" Example : sayang,bismillah,123456"))
+				print((k+"["+p+"•"+k+"]"+p+" Example : sayang,pengen,ngentot"))
 				self.pwlist()
 				break
 			elif f=="d":
