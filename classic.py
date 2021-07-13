@@ -10,10 +10,10 @@ from concurrent.futures import ThreadPoolExecutor as ThreadPool
 ###### RANDOM WARNA ######
 
 p = "\033[1;97m" # putih
-m = "\033[1;91m" # merah
+b = "\033[1;91m" # biru
 h = "\033[1;92m" # hijau
 k = "\033[1;93m" # kuning
-b = "\033[1;94m" # biru
+m = "\033[1;94m" # merah
 u = "\033[1;95m" # ungu
 o = "\033[1;96m" # biru muda
 
