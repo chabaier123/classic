@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # coding=utf-8
-#OPEN SOURCE CODE
+# OPEN SOURCE CODE
+# Cie ada yang mau recode nih ye
 
 ###### IMPORT MODULE ######
 
@@ -23,9 +24,9 @@ def banner():
     print("""
 \033[1;91m/ ________              _     
   / ____/ /___ ___________(_)____
- / /   / / __ `/ ___/ ___/ / ___/
-/ /___/ / /_/ (__  |__  ) / /__ "+b+"Created By"+p)) 
-\____/_/\__,_/____/____/_/\___/ Ramdhan R
+ / /   / / __ `/ ___/ ___/ / ___/Created By
+/ /___/ / /_/ (__  |__  ) / /__  Ramdhan 
+\____/_/\__,_/____/____/_/\___/  Ramadhian
 """)
 
 
