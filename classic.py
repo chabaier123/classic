@@ -11,10 +11,10 @@ from concurrent.futures import ThreadPoolExecutor as ThreadPool
 ###### RANDOM WARNA ######
 
 p = "\033[1;97m" # putih
-b = "\033[1;91m" # biru
+m = "\033[1;91m" # merah
 h = "\033[1;92m" # hijau
 k = "\033[1;93m" # kuning
-m = "\033[1;94m" # merah
+b = "\033[1;94m" # biru
 u = "\033[1;95m" # ungu
 o = "\033[1;96m" # biru muda
 
@@ -22,11 +22,11 @@ o = "\033[1;96m" # biru muda
 
 def banner():
     print("""
-\033[1;91m/ ________              _     
+\033[1;95m/ ________              _     
   / ____/ /___ ___________(_)____
- / /   / / __ `/ ___/ ___/ / ___/Created By
-/ /___/ / /_/ (__  |__  ) / /__  Ramdhan 
-\____/_/\__,_/____/____/_/\___/  Ramadhian
+ / /   / / __ `/ ___/ ___/ / ___/\033[1;96mCreated By
+/ /___/ / /_/ (__  |__  ) / /__ \033[1;96mRamdhan 
+\____/_/\__,_/____/____/_/\___/ \033[1;96mRamadhian
 """)
 
 
