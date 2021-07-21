@@ -139,10 +139,10 @@ def menu():
         log_token()
     os.system("clear")
     banner()
-    print((k+"\n["+p+"1"+k+"]"+p+" Crack ID From Friend"))
-    print((k+"["+p+"2"+k+"]"+p+" Crack ID From Public"))
-    print((k+"["+p+"3"+k+"]"+p+" Crack ID From Followers"))
-    print((k+"["+p+"0"+k+"]"+p+" Logout"))
+    print((k+"\n["+p+"1"+k+"]"+b+" Crack ID From Friend"))
+    print((k+"["+p+"2"+k+"]"+u+" Crack ID From Public"))
+    print((k+"["+p+"3"+k+"]"+b+" Crack ID From Followers"))
+    print((k+"["+p+"0"+k+"]"+m+" Logout"))
     choose_menu()
 	
 def choose_menu():
