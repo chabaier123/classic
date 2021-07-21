@@ -100,7 +100,7 @@ def log_token():
         zedd = open("login.txt", "w")
         zedd.write(toket)
         zedd.close()
-        print((k+"\n["+p+"•"+k+"]"+p+" Login Successful"))
+        print((k+"\n["+p+"•"+k+"]"+h+" Login Successful"))
         bot()
     except KeyError:
         print((k+"["+p+"!"+k+"]"+p+" Token Invalid"))
@@ -139,9 +139,9 @@ def menu():
         log_token()
     os.system("clear")
     banner()
-    print((k+"\n["+p+"1"+k+"]"+b+" Crack ID From Friend"))
-    print((k+"["+p+"2"+k+"]"+u+" Crack ID From Public"))
-    print((k+"["+p+"3"+k+"]"+b+" Crack ID From Followers"))
+    print((k+"\n["+p+"1"+k+"]"+k+" Crack ID From Friend"))
+    print((k+"["+p+"2"+k+"]"+o+" Crack ID From Public"))
+    print((k+"["+p+"3"+k+"]"+u+" Crack ID From Followers"))
     print((k+"["+p+"0"+k+"]"+m+" Logout"))
     choose_menu()
 	
