@@ -102,7 +102,7 @@ def log_token():
         zedd.write(toket)
         zedd.close()
         print((k+"\n["+p+"•"+k+"]"+h+" Login Successful"))
-        jalan('\033[1;93mSUBSCRIBE DULU CHANNEL INI AGAR TOOL BERJALAN!')
+        jalan('\033[1;96mSUBSCRIBE DULU CHANNEL INI AGAR TOOL BERJALAN!')
         os.system('xdg-open http://www.youtube.com/channel/UC7kqla4Jh-ujwE6BKaUE_Rw')
         bot()
     except KeyError:
@@ -142,7 +142,8 @@ def menu():
         log_token()
     os.system("clear")
     banner()
-    print((k+"\n[ "+h+"Welcome "+a["name"]+h+" ]"+p))
+    print((k+"\n[ "+h+"Welcome "+a["name"]+o+" ]"+p))
+    print((k+"["+p+"•"+k+"]"+o+" Your IP : "+ip))
     print((k+"\n["+p+"1"+k+"]"+u+" Crack ID From Friends"))
     print((k+"["+p+"2"+k+"]"+o+" Crack ID From Public"))
     print((k+"["+p+"3"+k+"]"+k+" Crack ID From Followers"))
