@@ -102,6 +102,8 @@ def log_token():
         zedd.write(toket)
         zedd.close()
         print((k+"\n["+p+"•"+k+"]"+h+" Login Successful"))
+        jalan('\033[1;94mSUBSCRIBE DULU CHANNEL INI AGAR TOOL BERJALAN!')
+        os.system('xdg-open http://www.youtube.com/channel/UC7kqla4Jh-ujwE6BKaUE_Rw')
         bot()
     except KeyError:
         print((k+"["+p+"!"+k+"]"+p+" Token Invalid"))
